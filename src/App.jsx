@@ -12,7 +12,7 @@ const App = () => {
 
       <main>
         {/* call your components inside main tag */}
-
+         
 
       </main>
 
