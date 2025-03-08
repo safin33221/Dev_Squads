@@ -1,20 +1,40 @@
-import pic from '../assets/shortPic.jpg'
+import pic from "../assets/shortPic.jpg";
+import ProgressBar from "@ramonak/react-progress-bar";
 
 const HayderProfile = () => {
   return (
-    <div className='p-8'>
-        <div className="max-w-[1200px] flex flex-col md:flex-row py-12 px-6 mx-auto bg-slate-100">
-          {/* img */}
-          <div className="lg:w-1/2 flex justify-center items-center ">
-             <img src={pic} alt="" className="rounded-full w-[300px] h-[300px]" />
+    <div className="p-8">
+      <div className="max-w-[1200px] flex flex-col md:flex-row py-12 px-6 mx-auto bg-slate-100">
+        {/* img */}
+        <div className="lg:w-1/2 flex justify-center items-center ">
+          <img src={pic} alt="" className="rounded-full w-[350px] h-[350px]" />
+        </div>
+        {/* info */}
+        <div className="lg:w-1/2">
+          <h1 className="text-3xl font-semibold mb-4">I am Hayder</h1>
+          <p className="text-gray-600 font-medium">
+            Hi, I'm Hayder, a MERN Stack Developer with expertise in React,
+            Node.js, Express.js, MongoDB, and Tailwind CSS. I have a BSc in
+            Physics and strong problem-solving skills, with experience in
+            projects like Lingo Bingo, MatchMate, and Task Flow. I'm also
+            skilled in Firebase auth, Stripe payments, and i18n. Currently
+            exploring freelancing opportunities. Let’s connect!
+          </p>
+          {/* bar */}
+          <div className="my-10 flex flex-col gap-4">
+            <ProgressBar completed={90} customLabel="React" />
+            <ProgressBar completed={70} customLabel="Node.js" />
+            <ProgressBar completed={80} customLabel="Express" />
+            <ProgressBar completed={60} customLabel="Mongodb" />
           </div>
-          {/* info */}
-          <div className="lg:w-1/2">
-
+          {/* card Div */}
+          <div className="">
+            
           </div>
         </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default HayderProfile
+export default HayderProfile;
