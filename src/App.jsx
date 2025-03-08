@@ -1,7 +1,6 @@
-
-import Footer from './Components/Footer'
-import Navbar from './Components/Navbar'
-
+import Footer from './Components/Footer';
+import Navbar from './Components/Navbar';
+import TawhidSection from './Components/TawhidSection';
 
 const App = () => {
   return (
@@ -12,10 +11,8 @@ const App = () => {
 
       <main>
         {/* call your components inside main tag */}
-
-
+        <TawhidSection></TawhidSection>
       </main>
-
 
       <footer>
         <Footer />
