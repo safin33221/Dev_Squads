@@ -3,6 +3,7 @@ import BodruddozaRedoy from './Components/BodruddozaRedoy';
 import Footer from './Components/Footer'
 import HayderProfile from './Components/HayderProfile';
 import Navbar from './Components/Navbar'
+import Safin from './Components/safin';
 
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
         <BodruddozaRedoy/>
 
          <HayderProfile></HayderProfile>
+         <Safin/>
 
         
 
