@@ -4,7 +4,7 @@ import ProgressBar from "@ramonak/react-progress-bar";
 const HayderProfile = () => {
   return (
     <div className="p-8">
-      <div className="max-w-[1200px] flex flex-col md:flex-row py-12 px-6 mx-auto bg-slate-100">
+      <div className="max-w-[1300px] rounded-xl flex flex-col md:flex-row py-12 px-6 mx-auto bg-slate-100">
         {/* img */}
         <div className="lg:w-1/2 flex justify-center items-center ">
           <img src={pic} alt="" className="rounded-full w-[350px] h-[350px]" />
@@ -28,8 +28,33 @@ const HayderProfile = () => {
             <ProgressBar completed={60} customLabel="Mongodb" />
           </div>
           {/* card Div */}
-          <div className="">
-            
+          <div className="grid grid-cols-2 gap-4">
+            {/*card-1  */}
+            <div className="flex gap-2 border-2 border-orange-400 rounded-xl p-4">
+              <div className="w-1/2">
+                <h1 className="text-4xl font-semibold text-orange-600">1250</h1>
+                <p className="text-xl font-semibold text-orange-400">Sales Info</p>
+              </div>
+              <div className="w-1/2">
+                <p className="text-gray-600 font-medium">
+                  Lorem ipsum dolor sit amet,  elit.
+                  Nulla, at?
+                </p>
+              </div>
+            </div>
+            {/*card-1  */}
+            <div className="flex gap-2 border-2 border-slate-500 rounded-xl p-4">
+              <div className="w-1/2">
+                <h1 className="text-4xl font-semibold text-slate-600">4580</h1>
+                <p className="text-xl font-semibold text-slate-500">Success Info</p>
+              </div>
+              <div className="w-1/2">
+                <p className="text-orange-400 font-medium">
+                  Lorem ipsum dolor sit amet,  elit.
+                  Nulla, at?
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
