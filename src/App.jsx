@@ -1,5 +1,6 @@
 
 import Footer from './Components/Footer'
+import HayderProfile from './Components/HayderProfile';
 import Navbar from './Components/Navbar'
 
 
@@ -12,6 +13,7 @@ const App = () => {
 
       <main>
         {/* call your components inside main tag */}
+         <HayderProfile></HayderProfile>
 
         
 
