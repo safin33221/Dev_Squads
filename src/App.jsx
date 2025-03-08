@@ -1,3 +1,7 @@
+
+import Footer from './Components/Footer'
+import KhairunProfile from './Components/KhairunProfile';
+import Navbar from './Components/Navbar'
 import Footer from './Components/Footer';
 import Navbar from './Components/Navbar';
 import TawhidSection from './Components/TawhidSection';
@@ -14,6 +18,8 @@ const App = () => {
 
       <main>
         {/* call your components inside main tag */}
+        <KhairunProfile></KhairunProfile>
+    
         <TawhidSection></TawhidSection>
 
         <BodruddozaRedoy />
