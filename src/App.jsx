@@ -13,7 +13,7 @@ const App = () => {
       <main>
         {/* call your components inside main tag */}
 
-        <h1>Hello every one</h1>
+        
 
 
       </main>
